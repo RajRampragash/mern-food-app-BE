@@ -39,7 +39,7 @@ connectDB()
 
 const startServer = async () => {
   try {
-    app.listen(5050, () => console.log(`Server started on PORT 5050`)); // Fixed the typo in the log message
+    app.listen(10000, () => console.log(`Server started on PORT 5050`)); // Fixed the typo in the log message
   } catch (error) {
     console.log(error);
   }
